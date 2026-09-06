@@ -11,14 +11,16 @@
 <body>
     <header class="border-b border-(--border-subtle) fixed inset-x-0 bg-(--navbar-bg) backdrop-blur-xs  z-10">
         <nav class="flex justify-between max-w-5xl mx-auto px-6 h-14 pt-3">
-            <a href="">sameer<span class="text-green-400 text-2xl">.</span>dev</a>
+            <a href="#home">sameer<span class="text-green-400 text-2xl">.</span>dev</a>
             <ul class="hidden md:flex gap-5 text-sm text-(--text-3)">
-                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms">stack</li>
-                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms">projects</li>
-                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms">experience</li>
-                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms">contact</li>
+                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms"> <a href="#stack">Stack</a>
+                </li>
+                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms"> <a href="#projects">Projects</a>
+                </li>
+                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms" > <a href="#experience">Experience</a></li>
+                <li class="cursor-pointer hover:text-(--text-1) transition-all duration-200ms"> <a href="#contacts">Contacts</a></li>
             </ul>
-            <a href=""
+            <a href="#contacts"
                 class=" hidden md:flex items-center gap-1 text-(--accent) border border-(--accent-border) mb-2 px-3  rounded-full  hover:bg-(--accent-dim) transition-all duration-200 text-xs w-fit ">
                 GET IN TOUCH
                 <svg class=" hidden md:flex   w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -29,7 +31,7 @@
         </nav>
     </header>
     <main>
-        <section class="  pt-40 pb-20  flex flex-col  justify-center items-start lg:min-h-screen md:min-h-screen">
+        <section class="  pt-40 pb-20  flex flex-col  justify-center items-start lg:min-h-screen md:min-h-screen" id="home">
             <div class="  flex flex-col md:flex-row max-w-6xl mx-auto text-white px-6 w-full ">
                 <div>
                     <div
@@ -37,7 +39,7 @@
                         <span class="inline-block h-2.5 w-2.5 bg-green-300 rounded-full animate-pulse"></span>
                         <p class="text-(--text-1)">Open to new opportunities</p>
                     </div>
-                    <h1 class="font-serif text-8xl md:text-8xl lg:text-(7rem)  animate-fade-in-up-1">
+                    <h1 class="font-serif text-8xl md:text-8xl lg:text-(7rem)  animate-fade-in-up-1 py-5">  
                         <p class="text-(--text-1)"> Mohd</p>
                         <p class="text-(--text-4)"> Sameer</p>
                     </h1>
@@ -55,10 +57,10 @@
 
                     </p>
                     <div class=" flex gap-3 items-center pb-5 animate-fade-in-up-3">
-                        <a href=""
+                        <a href="#projects"
                             class="bg-(--accent) text-black rounded-full px-4 py-2 pb-3 text-sm items-center hover:bg-teal-300 transition-all duration-200ms ">View
                             Projects</a>
-                        <a href=""
+                        <a href="#contacts"
                             class=" border border-(--border) px-4 py-2 rounded-full pb-3  text-(--text-2) text-sm hover:bg-teal-50 hover:text-black">
                             Get in Touch </a>
 
@@ -93,7 +95,7 @@
 
 
         </section>
-        <section class="border-t border-(--border) pt-10  py-15">
+        <section class="border-t border-(--border) pt-10  py-15" id="stack">
             <div class="max-w-6xl mx-auto px-6">
                 <h2 class=" uppercase text-(--text-3) text-sm tracking-widest mb-2"> Tech stacks</h2>
                 <div class="flex gap-2 items-center overflow-x-auto">
@@ -146,7 +148,7 @@
                 </div>
             </div>
         </section>
-        <section class="border-t border-(--border) py-20">
+        <section class="border-t border-(--border) py-20" id="projects">
             <div class=" max-w-6xl mx-auto px-6">
                 <h2 class=" uppercase text-(--text-3) text-sm tracking-widest mb-2">
                     Selected Work
@@ -291,14 +293,14 @@
                 </div>
             </div>
         </section>
-        <section class="border-t border-(--border) pt-10 py-15">
+        <section class="border-t border-(--border) pt-10 py-15" id="experience">
             <div class=" max-w-6xl mx-auto px-6">
                 <h2 class=" uppercase text-(--text-3) text-sm tracking-widest mb-2">
                     experience
                 </h2>
             </div>
         </section>
-        <section class="border-t border-(--border) py-20">
+        <section class="border-t border-(--border) py-20" id="contacts">
             <div class="max-w-6xl mx-auto px-6">
                 <h2 class="uppercase text-(--text-3) text-xs tracking-widest mb-4">Get In Touch</h2>
 
